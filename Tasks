@@ -1,7 +1,11 @@
 
 Исправление Task-1110-1
-Исправить аннотацию в InfoController на @RestController
-Статур Разработки: В разработке  (Дмитрий)
+Исправить аннотацию в InfoController на @RestController - исправлено
+Выдает ошибку :
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+Reason: Failed to determine a suitable driver class
+
+Статус Разработки: В разработке  (Дмитрий)
 Статус тестирования: На исправлении  (Наталья)
 
 ----------------------------
