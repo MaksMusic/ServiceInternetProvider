@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-
     @PostMapping("/users")
     public ResponseEntity<String> createUser(@RequestBody User user) {
 
@@ -17,14 +16,5 @@ public class UserController {
 
         return ResponseEntity.ok().build();
     }
-
-
-
-
 }
-
-
-
-
-//Задача добавить энпоинт post  /sum принимает массив чисел в теле запроса или лист чисел и вовзращает их сумму
 

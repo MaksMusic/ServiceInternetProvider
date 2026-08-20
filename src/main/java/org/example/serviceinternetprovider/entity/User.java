@@ -27,7 +27,4 @@ public class User {
         this.age = age;
         this.balance = balance;
     }
-
-
-
 }
